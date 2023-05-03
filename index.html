@@ -2,222 +2,25 @@
 <html>
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
 
     <meta charset="utf-8">
     <title>Aggressive Combustion</title>
     <style>
       /* Set default font and background color */
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #fff;
-        color: #333;
-        margin: 0;
-        padding: 0;
-      }
-		
-		h1{
-      font-family: 'Rubik', sans-serif;
-      font-size: 5em;
-		}
-		
-		h2{
-			letter-spacing: 4pt;
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.15em;
-		}
-
-    p{
-      font-family: 'Roboto-Thin', sans-serif;
-      font-weight: thin bold;
-      font-size: 1.25em;
-    }
       
-      /* Set the background image for each section */
-      .section1 {
-        background: linear-gradient(to bottom, #F8D68BAA 0%,#A56313AA 100%), url('Images/conclave-banner2.png') center no-repeat;
-        background-size: cover;
-        height: 1000px;
-        position: relative;
-      }
-      
-      .section2 {
-        background: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url('Images/gradiant-dots-01_1.png') center no-repeat;
-        background-size: 50%;
-        height: 1000px;
-        position: relative;
-      }
-      
-      .section3 {
-        background: linear-gradient(to bottom,#3C372CCC 0%,#3C372CCC 100%),  url('mallow-sketch.png') center no-repeat;
-        background-size: cover;
-        height: 1000px;
-        position: relative;
-      }
-      
-      /* Style the banner text and button */
-      .banner-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        color: #fff;
-      }
-      
-      .banner-button {
-        display: inline-block;
-        margin-top: 20px;
-        padding: 10px 20px;
-        background-color: #f7941d;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        text-decoration: none;
-        transition: background-color 0.3s;
-      }
-      
-      .banner-button:hover {
-        background-color: #d32f2f;
-      }
-      
-      /* Style the about section text and logo */
-      .about-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        color: #252424;
-      }
-      
-      .about-logo {
-        display: block;
-        margin: 0 auto;
-        max-width: 200px;
-      }
-      
-      /* Style the contact section buttons */
-      .contact-buttons {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-      
-      .contact-button {
-        display: inline-block;
-        margin: 10px;
-        padding: 10px 20px;
-        background-color: #f44336;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        text-decoration: none;
-        transition: background-color 0.3s;
-      }
-      
-      .contact-button:hover {
-        background-color: #d32f2f;
-      }
-      
-      /* Style the navigation bar */
-      .navbar {
-        overflow: hidden;
-        background-color: #333;
-		  position: sticky;
-		  width: 30%;
-		  background-color: #f7941d;
-		  border-radius: 5px;
-    top: 0;
-    margin-right: 10%;
-    float:right;
-    z-index: 1;
-    font-family: 'Roboto-Thin', sans-serif;
-  }
-  
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 22px 25px;
-    text-decoration: none;
-    font-size: 17px;
-    
-  }
-  
-  .navbar a:hover {
-    background-color: #ddd;
-    color: #333;
-  }
-
-  .logo-tab {
-    overflow: hidden;
-		  position: sticky;
-		  width: 7%;
-      padding: 0.5% 1% 0.5%;
-		  background-color: #f7941d;
-		  border-radius: 5px;
-    top: 0;
-    margin-left: 10%;
-    float:left;
-    z-index: 2;
-  }
-  
-  /* Style the dropdown menu */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 17px;
-    border: none;
-    outline: none;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #ddd;
-    color: #333;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: #333;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-    color: #333;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
     </style>
   </head>
   <body>
 
-      <img class="logo-tab" src="Images/logo_white.png">
+    <a href="#"><img class="logo-tab" src="Images/logo_white.png"></a>
 
     <!-- Navigation bar -->
     <div class="navbar">
@@ -232,16 +35,18 @@
       </div>-->
       <a href="#contact">Conclave VTT</a>
       <a href="#contact">Games</a>
+      <a href="#contact">Press</a>
+      <a href="#contact">Contact</a>
     </div>
 
 
 	  <!-- Banner section -->
 <div class="section1">
   <div class="banner-text">
-    <h1>A NEW TABLETOP<br> RPG EXPERIENCE</h1>
+    <h1>A NEW WAY TO PLAY<br>YOUR FAVORITE TTRPGS</h1>
     <h2>CONCLAVE VIRTUAL TABLETOP</h2>
 	  <p>
-		  Play online or locally in this simple and intuitive virtual tabletop
+		  Play locally or online with our simple and intuitive virtual tabletop.
 	  </p>
     <a href="#" class="banner-button">Learn More</a>
   </div>
@@ -252,7 +57,7 @@
   <div class="about-text">
 	<img src="Images/icon_color.png" alt="Aggressive combustion logo" class="about-logo">
     <h1 style="color:#333">ABOUT OUR STUDIO</h1>
-    <p>We are a small indie game development studio dedicated to creating high-quality, engaging games. Our team is passionate about gaming and we love what we do!</p>
+    <p style="margin: 10% 30%; text-align: center;">We formed Aggressive Combustion in 2016 to do two things: make fun games with our friends and meet our hero Dave Grohl. We're still working on that second one. In the meantime, we've developed games for PC and Mobile, and participated in a variety of game jams.</p>
   </div>
 </div>
 
@@ -264,14 +69,25 @@
 </div>
 
   <div class="contact-buttons">
-    <h2>Join Our Newsletter</h2>
-    <a href="#" class="contact-button">Sign Up</a>
-    <h2>Connect With Us</h2>
+    <h2 style="margin: 20% 10% 2%; text-align: center; color: white;">JOIN OUR NEWSLETTER</h2>
+    <p style=" color: white;">Be among the first to receive exclusive news and updates</p>
+    <a href="#" class="banner-button">Sign Up Now</a>
+    <h2 style="margin: 5% 10% 2%; text-align: center; color: white;">CONNECT WITH US</h2>
     <!-- <a href="#" class="contact-button">Facebook</a> -->
-    <a href="#" class="contact-button">Twitter</a>
-    <a href="#" class="contact-button">Instagram</a>
+    <p style=" color: white;">Join us on social media or hang out on our Discord server</p>
+    <div class="social_bar">
+      <a href="#"><img src="Images/Social/discord.png" alt="" class="social"></a>
+      <a href="#"><img src="Images/Social/twitter.png" alt="" class="social"></a>
+      <a href="#"><img src="Images/Social/yt.png" alt="" class="social"></a>
+      <a href="#"><img src="Images/Social/gh.png" alt="" class="social"></a>
+      <a href="#"><img src="Images/Social/itch.png" alt="" class="social"></a>
+    </div>
+    <h2 style="margin: 5% 10% 2%; text-align: center; color: white;">GOT A QUESTION?</h2>
+    <p style=" color:  white;">Reach out to us with an <a href="#">email.</a></p>
   </div>
   
 </div>
+
+<div class="footer">© 2023 by Aggressive Combustion</div>
   </body>
 </html>
