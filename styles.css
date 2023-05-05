@@ -192,22 +192,75 @@ p a {
     text-align: center;
 }
 
-.mallow
-{
-  height: 800px;
-  background: linear-gradient(to bottom, #F8D68BAA 0%,#A56313AA 100%), url(Images/mallow_title.png) center no-repeat;
+/* Game section */
+.game-section {
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+.game-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+  height: 400px;
+}
+
+.game-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.game-image {
+  flex-basis: 40%;
   background-size: cover;
-  position: relative;
+  background-position: center;
+  height: 200px;
+  margin-left: 5%;
 }
 
-.block
-{
-  margin-left: auto;
-  margin-right: auto;
+.game-info {
+  flex-basis: 60%;
+  padding: 20px;
+  text-align: left;
 }
 
-.jam_games
-{
-  height: 1000px;
-  position: relative;
+.game-title {
+  font-size: 24px;
+  margin: 0;
+  color: black;
+  text-align: center;
+}
+
+.game-description {
+  font-size: 16px;
+  margin: 10px 0;
+  color: black;
+  padding: 5%;
+}
+
+.game-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.game-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
 }
