@@ -51,6 +51,9 @@ body:before {
 	align-items: center;
 	justify-content: center;
 	background-color: #36332F;
+	border-color: #F7941D;
+	border-style: solid;
+	border-bottom-width: 5px;
 }
 
 #navbar > .wrapper > .inner {
