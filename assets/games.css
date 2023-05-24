@@ -2713,7 +2713,9 @@ h1.style3 span.p:nth-child(n + 2), h2.style3 span.p:nth-child(n + 2), h3.style3 
 	background-repeat: repeat;
 	border-color: #FCFAF5;
 	border-style: solid;
-	border-width: 1px;
+	border-color: #F7941D;
+	border-style: solid;
+	border-bottom-width: 5px;
 }
 
 #container05 > .wrapper > .inner {
